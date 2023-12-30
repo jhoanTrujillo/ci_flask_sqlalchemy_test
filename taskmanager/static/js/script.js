@@ -1,7 +1,8 @@
 // Initialize sidenav 
 // This code was copied from the Google Materialize css framework
 document.addEventListener('DOMContentLoaded', function() {
-    let sidenav = document.querySelectorAll('.sidenav');
+    var sidenav = document.querySelector('.sidenav');
+	console.log(sidenav)
     M.Sidenav.init(sidenav);
   });
 
